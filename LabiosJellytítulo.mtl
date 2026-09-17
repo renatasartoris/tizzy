@@ -1,0 +1,17 @@
+# Blender 5.2.0 LTS MTL File: 'LabiosJellytítulo.blend'
+# www.blender.org
+
+newmtl Material.006
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+Pr 0.704545
+Pm 0.775000
+Ps 0.400000
+Pc 1.600000
+Pcr 0.050000
+aniso 0.000000
+anisor 0.000000
+map_Kd /Users/renatasartori/Downloads/tizzygummy-textura-encaixada-UV-real_1.png
