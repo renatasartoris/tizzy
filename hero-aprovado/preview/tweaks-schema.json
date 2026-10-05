@@ -1,0 +1,726 @@
+[
+  {
+    "type": "header",
+    "content": "Textos"
+  },
+  {
+    "type": "text",
+    "id": "eyebrow",
+    "label": "Linha acima do título",
+    "default": "Tizzygummy® · goma proteica · 60 g"
+  },
+  {
+    "type": "textarea",
+    "id": "titulo",
+    "label": "Título",
+    "default": "A primeira goma rica em proteína do Brasil"
+  },
+  {
+    "type": "header",
+    "content": "Título"
+  },
+  {
+    "type": "select",
+    "id": "gelatina",
+    "label": "Aspecto do título",
+    "default": "nuvem",
+    "options": [
+      {
+        "value": "nuvem",
+        "label": "nuvem"
+      },
+      {
+        "value": "reto",
+        "label": "reto"
+      },
+      {
+        "value": "brilho",
+        "label": "brilho"
+      },
+      {
+        "value": "vidro",
+        "label": "vidro"
+      },
+      {
+        "value": "orvalho",
+        "label": "orvalho"
+      }
+    ],
+    "info": "O lettering de nuvens foi renderizado para o título original. Textos personalizados continuam editáveis e usam a tipografia de apoio."
+  },
+  {
+    "type": "range",
+    "id": "balanco",
+    "label": "Balanço",
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "unit": "%",
+    "default": 40
+  },
+  {
+    "type": "select",
+    "id": "title_case",
+    "label": "Maiúsculas e minúsculas",
+    "default": "uppercase",
+    "options": [
+      {
+        "value": "original",
+        "label": "Como foi escrito"
+      },
+      {
+        "value": "uppercase",
+        "label": "TUDO EM MAIÚSCULAS"
+      },
+      {
+        "value": "lowercase",
+        "label": "tudo em minúsculas"
+      }
+    ],
+    "info": "A frase da proposta possui nuvens na escrita original e em MAIÚSCULAS. Palavras novas e a versão toda em minúsculas usam a tipografia de apoio."
+  },
+  {
+    "type": "range",
+    "id": "title_leading",
+    "label": "Espaço entre linhas",
+    "min": 90,
+    "max": 150,
+    "step": 5,
+    "default": 100,
+    "unit": "%"
+  },
+  {
+    "type": "range",
+    "id": "title_word_gap",
+    "label": "Espaço extra entre palavras",
+    "min": 0,
+    "max": 24,
+    "step": 1,
+    "default": 0,
+    "unit": "px"
+  },
+  {
+    "type": "header",
+    "content": "Título · desktop"
+  },
+  {
+    "type": "range",
+    "id": "title_x",
+    "label": "Posição horizontal — desktop",
+    "min": 0,
+    "max": 60,
+    "step": 1,
+    "default": 6,
+    "unit": "%",
+    "info": "Distância da borda esquerda. A largura disponível limita o bloco à área da cena."
+  },
+  {
+    "type": "range",
+    "id": "title_y",
+    "label": "Posição vertical — desktop",
+    "min": 5,
+    "max": 65,
+    "step": 1,
+    "default": 13,
+    "unit": "%"
+  },
+  {
+    "type": "range",
+    "id": "title_width",
+    "label": "Largura do bloco — desktop",
+    "min": 25,
+    "max": 94,
+    "step": 1,
+    "default": 59,
+    "unit": "%"
+  },
+  {
+    "type": "range",
+    "id": "title_size",
+    "label": "Tamanho do título — desktop",
+    "min": 60,
+    "max": 160,
+    "step": 5,
+    "default": 100,
+    "unit": "%",
+    "info": "100% mantém o tamanho da proposta. O lettering se ajusta à largura para manter cada palavra inteira."
+  },
+  {
+    "type": "select",
+    "id": "title_align",
+    "label": "Alinhamento — desktop",
+    "default": "left",
+    "options": [
+      {
+        "value": "left",
+        "label": "À esquerda"
+      },
+      {
+        "value": "center",
+        "label": "Centralizado"
+      },
+      {
+        "value": "right",
+        "label": "À direita"
+      }
+    ]
+  },
+  {
+    "type": "header",
+    "content": "Título · celular"
+  },
+  {
+    "type": "range",
+    "id": "title_x_mobile",
+    "label": "Posição horizontal — celular",
+    "min": 0,
+    "max": 25,
+    "step": 1,
+    "default": 7,
+    "unit": "%"
+  },
+  {
+    "type": "range",
+    "id": "title_y_mobile",
+    "label": "Posição vertical — celular",
+    "min": 5,
+    "max": 65,
+    "step": 1,
+    "default": 14,
+    "unit": "%"
+  },
+  {
+    "type": "range",
+    "id": "title_width_mobile",
+    "label": "Largura do bloco — celular",
+    "min": 60,
+    "max": 100,
+    "step": 1,
+    "default": 86,
+    "unit": "%"
+  },
+  {
+    "type": "range",
+    "id": "title_size_mobile",
+    "label": "Tamanho do título — celular",
+    "min": 60,
+    "max": 160,
+    "step": 5,
+    "default": 100,
+    "unit": "%"
+  },
+  {
+    "type": "select",
+    "id": "title_align_mobile",
+    "label": "Alinhamento — celular",
+    "default": "center",
+    "options": [
+      {
+        "value": "left",
+        "label": "À esquerda"
+      },
+      {
+        "value": "center",
+        "label": "Centralizado"
+      },
+      {
+        "value": "right",
+        "label": "À direita"
+      }
+    ]
+  },
+  {
+    "type": "header",
+    "content": "Benefícios e faixa"
+  },
+  {
+    "type": "text",
+    "id": "ticker",
+    "label": "Faixa laranja (separe por vírgula)",
+    "default": "17 g de proteína, sem açúcar, colágeno, 3 sabores, clean label, feito no brasil"
+  },
+  {
+    "type": "text",
+    "id": "tag1",
+    "label": "Nuvem 1: título",
+    "default": "Proteínas"
+  },
+  {
+    "type": "text",
+    "id": "nota1",
+    "label": "Nuvem 1: detalhe",
+    "default": "17 g por pacote"
+  },
+  {
+    "type": "text",
+    "id": "tag2",
+    "label": "Nuvem 2: título",
+    "default": "Colágeno"
+  },
+  {
+    "type": "text",
+    "id": "nota2",
+    "label": "Nuvem 2: detalhe",
+    "default": "firmeza e pele"
+  },
+  {
+    "type": "text",
+    "id": "tag3",
+    "label": "Nuvem 3: título",
+    "default": "Sem açúcar"
+  },
+  {
+    "type": "text",
+    "id": "nota3",
+    "label": "Nuvem 3: detalhe",
+    "default": "zero adição"
+  },
+  {
+    "type": "text",
+    "id": "tag4",
+    "label": "Nuvem 4: título",
+    "default": "Clean label"
+  },
+  {
+    "type": "text",
+    "id": "nota4",
+    "label": "Nuvem 4: detalhe",
+    "default": "lista curta"
+  },
+  {
+    "type": "header",
+    "content": "Céu"
+  },
+  {
+    "type": "select",
+    "id": "ceu",
+    "label": "Paleta",
+    "default": "1",
+    "options": [
+      {
+        "value": "0",
+        "label": "Azul dia"
+      },
+      {
+        "value": "1",
+        "label": "Crepúsculo"
+      },
+      {
+        "value": "2",
+        "label": "Mel"
+      },
+      {
+        "value": "3",
+        "label": "Laranja claro"
+      },
+      {
+        "value": "4",
+        "label": "Âmbar"
+      },
+      {
+        "value": "5",
+        "label": "Coral"
+      },
+      {
+        "value": "6",
+        "label": "Dourado"
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "id": "horizonte",
+    "label": "Horizonte",
+    "default": "Automático",
+    "options": [
+      {
+        "value": "Automático",
+        "label": "Automático"
+      },
+      {
+        "value": "Laranja",
+        "label": "Laranja"
+      },
+      {
+        "value": "Mel",
+        "label": "Mel"
+      },
+      {
+        "value": "Coral",
+        "label": "Coral"
+      },
+      {
+        "value": "Azul claro",
+        "label": "Azul claro"
+      }
+    ]
+  },
+  {
+    "type": "range",
+    "id": "halo",
+    "label": "Halo solar",
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "unit": "%",
+    "default": 55
+  },
+  {
+    "type": "header",
+    "content": "Nuvens"
+  },
+  {
+    "type": "select",
+    "id": "nuvens",
+    "label": "Densidade",
+    "default": "Esparso",
+    "options": [
+      {
+        "value": "Esparso",
+        "label": "Esparso"
+      },
+      {
+        "value": "Equilibrado",
+        "label": "Equilibrado"
+      },
+      {
+        "value": "Encoberto",
+        "label": "Encoberto"
+      }
+    ]
+  },
+  {
+    "type": "range",
+    "id": "escalaNuvens",
+    "label": "Escala",
+    "min": 70,
+    "max": 150,
+    "step": 5,
+    "unit": "%",
+    "default": 100
+  },
+  {
+    "type": "header",
+    "content": "Movimento"
+  },
+  {
+    "type": "select",
+    "id": "queda",
+    "label": "Física da queda",
+    "default": "pluma",
+    "options": [
+      {
+        "value": "pluma",
+        "label": "pluma"
+      },
+      {
+        "value": "goma",
+        "label": "goma"
+      },
+      {
+        "value": "pesada",
+        "label": "pesada"
+      }
+    ]
+  },
+  {
+    "type": "range",
+    "id": "energia",
+    "label": "Energia",
+    "min": 30,
+    "max": 200,
+    "step": 2,
+    "unit": "%",
+    "default": 136
+  },
+  {
+    "type": "range",
+    "id": "scroll_length",
+    "label": "Duração da cena na rolagem",
+    "min": 400,
+    "max": 800,
+    "step": 20,
+    "default": 560,
+    "unit": "vh"
+  },
+  {
+    "type": "range",
+    "id": "scroll_response",
+    "label": "Resposta à rolagem",
+    "min": 8,
+    "max": 24,
+    "step": 1,
+    "default": 14
+  },
+  {
+    "type": "range",
+    "id": "approach_pacing",
+    "label": "Duração da aproximação",
+    "min": 100,
+    "max": 220,
+    "step": 10,
+    "default": 170,
+    "unit": "%",
+    "info": "Alongue apenas o voo inicial. A abertura e a queda mantêm suas trajetórias e distâncias de rolagem."
+  },
+  {
+    "type": "header",
+    "content": "Arquivos de nuvem"
+  },
+  {
+    "type": "select",
+    "id": "texTopo",
+    "label": "Topo",
+    "default": "nuvem-topo",
+    "options": [
+      {
+        "value": "tz-cloud-soft",
+        "label": "Nuvem completa · suave"
+      },
+      {
+        "value": "nuvem-topo",
+        "label": "nuvem-topo"
+      },
+      {
+        "value": "nuvem-grande",
+        "label": "nuvem-grande"
+      },
+      {
+        "value": "nuvem-baixa",
+        "label": "nuvem-baixa"
+      },
+      {
+        "value": "nuvem-cinco",
+        "label": "nuvem-cinco"
+      },
+      {
+        "value": "nuvem-seis",
+        "label": "nuvem-seis"
+      },
+      {
+        "value": "bruma",
+        "label": "bruma"
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "id": "texGrande",
+    "label": "Grande",
+    "default": "nuvem-grande",
+    "options": [
+      {
+        "value": "tz-cloud-soft",
+        "label": "Nuvem completa · suave"
+      },
+      {
+        "value": "nuvem-topo",
+        "label": "nuvem-topo"
+      },
+      {
+        "value": "nuvem-grande",
+        "label": "nuvem-grande"
+      },
+      {
+        "value": "nuvem-baixa",
+        "label": "nuvem-baixa"
+      },
+      {
+        "value": "nuvem-cinco",
+        "label": "nuvem-cinco"
+      },
+      {
+        "value": "nuvem-seis",
+        "label": "nuvem-seis"
+      },
+      {
+        "value": "bruma",
+        "label": "bruma"
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "id": "texBaixa",
+    "label": "Baixa",
+    "default": "tz-cloud-soft",
+    "options": [
+      {
+        "value": "tz-cloud-soft",
+        "label": "Nuvem completa · suave"
+      },
+      {
+        "value": "nuvem-topo",
+        "label": "nuvem-topo"
+      },
+      {
+        "value": "nuvem-grande",
+        "label": "nuvem-grande"
+      },
+      {
+        "value": "nuvem-baixa",
+        "label": "nuvem-baixa"
+      },
+      {
+        "value": "nuvem-cinco",
+        "label": "nuvem-cinco"
+      },
+      {
+        "value": "nuvem-seis",
+        "label": "nuvem-seis"
+      },
+      {
+        "value": "bruma",
+        "label": "bruma"
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "id": "texCinco",
+    "label": "Cinco",
+    "default": "nuvem-cinco",
+    "options": [
+      {
+        "value": "tz-cloud-soft",
+        "label": "Nuvem completa · suave"
+      },
+      {
+        "value": "nuvem-topo",
+        "label": "nuvem-topo"
+      },
+      {
+        "value": "nuvem-grande",
+        "label": "nuvem-grande"
+      },
+      {
+        "value": "nuvem-baixa",
+        "label": "nuvem-baixa"
+      },
+      {
+        "value": "nuvem-cinco",
+        "label": "nuvem-cinco"
+      },
+      {
+        "value": "nuvem-seis",
+        "label": "nuvem-seis"
+      },
+      {
+        "value": "bruma",
+        "label": "bruma"
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "id": "texSeis",
+    "label": "Seis",
+    "default": "nuvem-seis",
+    "options": [
+      {
+        "value": "tz-cloud-soft",
+        "label": "Nuvem completa · suave"
+      },
+      {
+        "value": "nuvem-topo",
+        "label": "nuvem-topo"
+      },
+      {
+        "value": "nuvem-grande",
+        "label": "nuvem-grande"
+      },
+      {
+        "value": "nuvem-baixa",
+        "label": "nuvem-baixa"
+      },
+      {
+        "value": "nuvem-cinco",
+        "label": "nuvem-cinco"
+      },
+      {
+        "value": "nuvem-seis",
+        "label": "nuvem-seis"
+      },
+      {
+        "value": "bruma",
+        "label": "bruma"
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "id": "texBruma",
+    "label": "Bruma",
+    "default": "bruma",
+    "options": [
+      {
+        "value": "tz-cloud-soft",
+        "label": "Nuvem completa · suave"
+      },
+      {
+        "value": "nuvem-topo",
+        "label": "nuvem-topo"
+      },
+      {
+        "value": "nuvem-grande",
+        "label": "nuvem-grande"
+      },
+      {
+        "value": "nuvem-baixa",
+        "label": "nuvem-baixa"
+      },
+      {
+        "value": "nuvem-cinco",
+        "label": "nuvem-cinco"
+      },
+      {
+        "value": "nuvem-seis",
+        "label": "nuvem-seis"
+      },
+      {
+        "value": "bruma",
+        "label": "bruma"
+      }
+    ]
+  },
+  {
+    "type": "header",
+    "content": "Painel"
+  },
+  {
+    "type": "select",
+    "id": "render_mode",
+    "label": "Qualidade do hero",
+    "default": "3d",
+    "options": [
+      {
+        "value": "3d",
+        "label": "3D real"
+      },
+      {
+        "value": "static",
+        "label": "Composição estática"
+      }
+    ]
+  },
+  {
+    "type": "range",
+    "id": "cloud_opacity",
+    "label": "Presença das nuvens",
+    "min": 20,
+    "max": 100,
+    "step": 5,
+    "default": 70,
+    "unit": "%"
+  },
+  {
+    "type": "range",
+    "id": "parallax",
+    "label": "Profundidade do parallax",
+    "min": 0,
+    "max": 200,
+    "step": 5,
+    "default": 135,
+    "unit": "%"
+  }
+]
